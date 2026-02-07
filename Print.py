@@ -1,0 +1,5 @@
+print("by Alex")
+print(3+7)
+print(10/2)
+print(5*6)
+print(9-5)
