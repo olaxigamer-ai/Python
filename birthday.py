@@ -1,0 +1,6 @@
+print("When is your birthday")
+day=int(input("Day:"))
+month=int(input("Month:"))
+print("your birthday has been saved.")
+print("The day is:",day)
+print("and the month is",month)
