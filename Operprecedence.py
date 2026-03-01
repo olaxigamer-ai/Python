@@ -1,0 +1,9 @@
+a=5
+b=4
+c=8
+d=2
+z=a*b+c/d**d
+print(z)
+x=a/b*(a+b)**d
+print(x)
+print(5/4)
