@@ -1,8 +1,13 @@
 class vehicle:
-    def __init__(self, maxspeed, mileage):
+    def __init__(self,name,maxspeed,mileage):
+        self.name=name
         self.maxspeed=maxspeed
         self.mileage=mileage
-modelx=vehicle(240,15)
 
-print("Model X maximum speed:",modelx.maxspeed)
-print("Model X mileage:",modelx.mileage)
+class bus(vehicle):
+    pass
+
+schoolbus=bus('School Honda',200, 10)
+print("Vehicle name is",schoolbus.name)
+print("Vehicle top speed is", schoolbus.maxspeed)
+print("Vehicle mileage is",schoolbus.mileage)
